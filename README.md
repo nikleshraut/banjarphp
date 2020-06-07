@@ -1,14 +1,26 @@
 # BanjarPHP
 BanjarPHP is a light weight PHP CMS with easy admin settings available and developed by Niklesh Raut.
 
-# Step 1
+__Step 1__
+
 git clone https://github.com/nikleshraut/banjarphp.git
 
-# Step 2
+__Step 2__
+
 Update database configurations in config.php
 
-# Step 3
+__Step 3__
+
+Run "composer install", to get all php dependency.
+
+__Step 4__
+
+Start your server php '-S localhost:8080'
+
+__Step 5__
+
 Go to "/install", to run database migrations.
 
-# Step 4
-Now you are good to go "/"
+__Step 6__
+
+Now you are good to go "http://localhost:8080"
